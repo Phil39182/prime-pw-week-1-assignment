@@ -1,11 +1,49 @@
 /* Give your page a fun background color */
 
+/*Didn't know how else to make my background "Fun"...enjoy!*/
+body{
+		animation: flashing 2s infinite;
+	}
+	@keyframes flashing{
+		0%		{ background-color: red}
+		25%		{ background-color: blue}
+		50%		{ background-color: yellow}
+		75%		{ background-color: pink}
+		100%	{ background-color: red}
+    }
 /* Make the header and footer a different color from the background */
+header{
+        background-color: lightgrey;
+        padding: 5px;
+        border-radius: 15px;
+        margin-left: 500px;
+        margin-right: 500px;
+}
 
+footer{ 
+        background-color: lightgray;
+        padding: 5px;
+        border-radius: 15px;
+}
 /* Align the h1 containing your name in the center of the header*/
-
+h1{
+    text-align: center;
+}
+h3{
+    text-align: center;
+}
 /* Make your p tag a different color and italic */
-
+p{
+    color: white;
+    font-style: italic;
+    font-size: large;
+}
 /* Put a border around your image */
-
+img{
+    border: 5px solid;
+    border-radius: 15px;
+};
 /* Change the font-family of your list */
+ul{
+    font-family: fantasy;
+}

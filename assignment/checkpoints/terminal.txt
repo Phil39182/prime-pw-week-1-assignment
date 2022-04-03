@@ -11,7 +11,7 @@ mkdir
 # 5 - What output would you expect when you run the command 'ls' in an empty folder? What about a folder containing files?
 When empty no results will be displayed. When containing files it will list files/folders in that folder
 # 6 - What is a quick way to create a new file?
-
+touch new-file.js
 # 7 - Run 'git --version' in your terminal. What is the output?
 git version 2.15.0
 # 8 - Why would you run the command 'git status'?
